@@ -56,8 +56,8 @@ public class ArgentumBean implements Serializable {
 		geraGrafico();
 	}
 	
-	public void filtraTeste() {
-		this.script;
+	public String filtraTeste() {
+		return "br.com.caelum.argentum.indicadores.";
 	}
 
 	private void aplicaFiltro() {
