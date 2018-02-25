@@ -32,8 +32,12 @@ public class ArgentumBean implements Serializable {
 	private ChartModel modeloGrafico;
 	private String nomeMedia;
 	private String nomeIndicadorBase;
+
 	private int status;
 	private boolean script;
+
+	private String teste;
+
 
 	private Date filtroDataDe;
 	private Date filtroDataAte;
