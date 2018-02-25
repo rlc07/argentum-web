@@ -33,6 +33,7 @@ public class ArgentumBean implements Serializable {
 	private String nomeMedia;
 	private String nomeIndicadorBase;
 	private int status;
+	private boolean script;
 
 	private Date filtroDataDe;
 	private Date filtroDataAte;
@@ -53,6 +54,10 @@ public class ArgentumBean implements Serializable {
 	public void filtra() {
 		aplicaFiltro();
 		geraGrafico();
+	}
+	
+	public void filtraTeste() {
+		this.script;
 	}
 
 	private void aplicaFiltro() {
