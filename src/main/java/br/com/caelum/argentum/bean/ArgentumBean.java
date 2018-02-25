@@ -26,11 +26,13 @@ import br.com.caelum.argentum.ws.ClienteWebService;
 @ManagedBean
 public class ArgentumBean implements Serializable {
 
+	//Teste 2
 	private static final long serialVersionUID = 1L;
 	private List<Negociacao> negociacoes;
 	private ChartModel modeloGrafico;
 	private String nomeMedia;
 	private String nomeIndicadorBase;
+	private String teste;
 
 	private Date filtroDataDe;
 	private Date filtroDataAte;
