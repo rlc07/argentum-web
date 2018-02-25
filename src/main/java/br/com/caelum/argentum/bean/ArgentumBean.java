@@ -26,6 +26,7 @@ import br.com.caelum.argentum.ws.ClienteWebService;
 @ManagedBean
 public class ArgentumBean implements Serializable {
 
+	//Teste Jenkins merge
 	private static final long serialVersionUID = 1L;
 	private List<Negociacao> negociacoes;
 	private ChartModel modeloGrafico;
