@@ -60,6 +60,10 @@ public class ArgentumBean implements Serializable {
 		return "br.com.caelum.argentum.indicadores.";
 	}
 
+public String filtraTestes() {
+		return "br.com.caelum.argentum.indicadores.";
+	}
+
 	private void aplicaFiltro() {
 		Calendar de = Calendar.getInstance();
 		if (filtroDataDe != null) {
